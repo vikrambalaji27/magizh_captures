@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magizh Captures – Professional Photography Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Space+Mono:wght@400;700&family=Noto+Sans+Tamil:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+ 
+  <!-- ── NAVIGATION ── -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">
+    <img src="images/Png.png" alt="Magizh Captures Logo" class="logo-img">
+    </a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="tel:+919787955292" class="nav-cta">Book Now</a>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Toggle Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+ 
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#services" onclick="toggleMenu()">Services</a>
+    <a href="#pricing" onclick="toggleMenu()">Pricing</a>
+    <a href="#gallery" onclick="toggleMenu()">Gallery</a>
+    <a href="#contact" onclick="toggleMenu()">Contact</a>
+    <a href="tel:+919787955292">&#128222; +91 9787955292</a>
+  </div>
+ 
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="hero-eyebrow">Professional Photography Studio</div>
+        <h1 class="hero-title">
+          <em>Magizh</em>
+          <strong>Captures</strong>
+        </h1>
+        <p class="hero-sub">
+          Every moment deserves to be remembered beautifully. We bring your most precious memories
+          to life with cinematic quality at affordable prices.
+        </p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn-primary">Book a Session</a>
+          <a href="#services" class="btn-outline">Our Services</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="services-preview">
+            <div class="service-item">Wedding Coverage</div>
+            <div class="service-item">Birthday Shoot</div>
+            <div class="service-item">Maternity Shoot</div>
+            <div class="service-item">Model Shoot</div>
+            <div class="service-item">Outdoor Shoots</div>
+            <div class="service-item">Event Coverage</div>
+            <div class="service-item">Ear Piercing</div>
+            <div class="service-item">Frame Works</div>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-num">500+</span>
+              <span class="stat-label">Sessions Done</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">8+</span>
+              <span class="stat-label">Services</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">15</span>
+              <span class="stat-label">Frame Sizes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ── SERVICES ── -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">What We Offer</div>
+        <h2 class="section-title">Our <em>Services</em></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">&#128141;</div>
+          <div class="service-name">Wedding Coverage</div>
+          <div class="service-desc">Timeless photography and cinematic video of your special day, captured with elegance and emotion.</div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">&#127874;</div>
+          <div class="service-name">Birthday Shoot</div>
+          <div class="service-desc">Celebrate every year with vibrant and joyful photography that captures the spirit of the occasion.</div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">&#129348;</div>
+          <div class="service-name">Maternity &amp; Puberty Shoot</div>
+          <div class="service-desc">Beautiful milestone photography — tender, glowing, and full of anticipation and celebration.</div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">&#128155;</div>
+          <div class="service-name">Ear Piercing Ceremony</div>
+          <div class="service-desc">Traditional ear-piercing events documented with cultural sensitivity and artful composition.</div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">&#128248;</div>
+          <div class="service-name">Model Shoot &amp; Outdoor</div>
+          <div class="service-desc">Portfolio-grade shoots for aspiring models and creative outdoor sessions in stunning locations.</div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">&#128444;</div>
+          <div class="service-name">All Kind of Frame Works</div>
+          <div class="service-desc">Custom photo frames in 15 sizes — perfect gifts, wall displays, and cherished keepsakes.</div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">&#127916;</div>
+          <div class="service-name">Video &amp; Event Coverage</div>
+          <div class="service-desc">Full event videography for all home functions and celebrations with cinematic editing.</div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">&#128146;</div>
+          <div class="service-name">Engagement &amp; Varaverpu</div>
+          <div class="service-desc">Capture the magic of your pre-wedding celebrations with style and lasting memories.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ── PRICING ── -->
+  <section id="pricing">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow pricing-eyebrow">Photo Frame Prices</div>
+        <h2 class="section-title pricing-title">Frame <em>Price List</em></h2>
+      </div>
+      <div class="pricing-table-wrapper reveal">
+        <table class="pricing-table">
+          <thead>
+            <tr>
+              <th>Size (inches)</th>
+              <th>Price (&#8377;)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>8 &times; 6</td><td class="price-val">300</td></tr>
+            <tr><td>12 &times; 8</td><td class="price-val">500</td></tr>
+            <tr><td>12 &times; 12</td><td class="price-val">600</td></tr>
+            <tr><td>15 &times; 10</td><td class="price-val">700</td></tr>
+            <tr><td>15 &times; 12</td><td class="price-val">750</td></tr>
+            <tr><td>18 &times; 12</td><td class="price-val">1,000</td></tr>
+            <tr><td>20 &times; 8</td><td class="price-val">1,000</td></tr>
+            <tr><td>24 &times; 12</td><td class="price-val">1,300</td></tr>
+            <tr><td>20 &times; 16</td><td class="price-val">1,500</td></tr>
+            <tr><td>36 &times; 12</td><td class="price-val">1,600</td></tr>
+            <tr><td>24 &times; 16</td><td class="price-val">1,800</td></tr>
+            <tr><td>24 &times; 18</td><td class="price-val">2,000</td></tr>
+            <tr><td>30 &times; 20</td><td class="price-val">2,200</td></tr>
+            <tr><td>36 &times; 24</td><td class="price-val">2,650</td></tr>
+            <tr><td>48 &times; 36</td><td class="price-val">4,000</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ── GALLERY ── -->
+  <section id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Our Work</div>
+        <h2 class="section-title">Captured <em>Moments</em></h2>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-item gallery-wide">
+          <span class="gallery-emoji">&#128247;</span>
+          <span class="gallery-item-label">Wedding</span>
+          <div class="gallery-item-overlay">View Gallery</div>
+        </div>
+        <div class="gallery-item">
+          <span class="gallery-emoji">&#127874;</span>
+          <span class="gallery-item-label">Birthday</span>
+          <div class="gallery-item-overlay">View Gallery</div>
+        </div>
+        <div class="gallery-item">
+          <span class="gallery-emoji">&#129348;</span>
+          <span class="gallery-item-label">Maternity</span>
+          <div class="gallery-item-overlay">View Gallery</div>
+        </div>
+        <div class="gallery-item">
+          <span class="gallery-emoji">&#128141;</span>
+          <span class="gallery-item-label">Model Shoot</span>
+          <div class="gallery-item-overlay">View Gallery</div>
+        </div>
+        <div class="gallery-item">
+          <span class="gallery-emoji">&#127807;</span>
+          <span class="gallery-item-label">Outdoor</span>
+          <div class="gallery-item-overlay">View Gallery</div>
+        </div>
+      </div>
+      <p class="gallery-note">
+        Follow us on Instagram
+        <a href="https://instagram.com/Magizh_Captures" target="_blank">@Magizh_Captures</a>
+        to see our latest work
+      </p>
+    </div>
+  </section>
+ 
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-grid">
+ 
+        <!-- Left: Info -->
+        <div class="contact-info reveal">
+          <h2>Let's <em>Capture</em> Your Story</h2>
+          <p>
+            Book your date today and let us create memories that last a lifetime. We cover all
+            functions at your home — video and photos at the most affordable prices with the highest quality.
+          </p>
+          <div class="contact-tamil">
+            உங்கள் இல்லங்களில் நடக்கும் அனைத்து சுபநிகழ்ச்சிகளுக்கும் சிறந்த முறையில்
+            வீடியோ மற்றும் போட்டோஸ் மிகவும் குறைந்த விலையில், நிறைந்த தரத்துடன்
+            எடுத்துக் கொடுக்கப்படும்.
+          </div>
+          <div class="contact-details">
+            <div class="contact-row">
+              <span class="contact-icon">&#128222;</span>
+              <div>
+                <div class="contact-label">Phone / WhatsApp</div>
+                <div class="contact-text"><a href="tel:+919787955292">+91 9787955292</a></div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <span class="contact-icon">&#128248;</span>
+              <div>
+                <div class="contact-label">Instagram</div>
+                <div class="contact-text">
+                  <a href="https://instagram.com/Magizh_Captures" target="_blank">@Magizh_Captures</a>
+                </div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <span class="contact-icon">&#9993;</span>
+              <div>
+                <div class="contact-label">Email</div>
+                <div class="contact-text">
+                  <a href="mailto:magizhcaptures@gmail.com">magizhcaptures@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="contact-row">
+              <span class="contact-icon">&#128197;</span>
+              <div>
+                <div class="contact-label">Booking</div>
+                <div class="contact-text">Register your date now!</div>
+              </div>
+            </div>
+          </div>
+ 
+          <!-- QR -->
+          <div class="qr-box-wrap">
+            <div class="qr-box">&#128241;</div>
+            <div class="qr-text">
+              <strong>Scan to WhatsApp us directly</strong>
+              <span>Quick bookings via WhatsApp at +91 9787955292</span>
+              <small>Scan the QR code at our studio or contact us directly</small>
+            </div>
+          </div>
+        </div>
+ 
+        <!-- Right: Form -->
+        <div class="contact-form-side reveal">
+          <h3>Book Your Session</h3>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your full name" />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" />
+            </div>
+            <div class="form-group">
+              <label for="event-date">Event Date</label>
+              <input type="date" id="event-date" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service">Service Required</label>
+            <select id="service">
+              <option value="">Select a service...</option>
+              <option>Wedding Coverage</option>
+              <option>Birthday Shoot</option>
+              <option>Maternity Shoot</option>
+              <option>Puberty Shoot</option>
+              <option>Ear Piercing Shoot</option>
+              <option>Model Shoot</option>
+              <option>Outdoor Shoot</option>
+              <option>Event Coverage</option>
+              <option>Photo Frame Order</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message (optional)</label>
+            <textarea id="message" placeholder="Tell us about your event, location, or any special requirements..."></textarea>
+          </div>
+          <button class="btn-submit" onclick="handleSubmit()">Confirm Booking &#8594;</button>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-logo">Magizh Captures</div>
+    <div class="footer-tagline">Professional Photography Studio</div>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a href="https://instagram.com/Magizh_Captures" target="_blank">Instagram</a>
+      <a href="mailto:magizhcaptures@gmail.com">Email Us</a>
+    </div>
+    <div class="footer-copy">&#169; 2025 Magizh Captures. All rights reserved. &middot; +91 9787955292</div>
+  </footer>
+ 
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/919787955292" class="whatsapp-float" target="_blank" title="WhatsApp Us">
+    &#128172;
+  </a>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
